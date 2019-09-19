@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_noteedition"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/search_within_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/search_note"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:hint="@string/searchText">
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/btn_clear_edition"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:drawable/ic_delete"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TitreNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TitreEdition"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#999999" />
+
+    <EditText
+        android:id="@+id/TitreNoteEdition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6px"
+        android:hint="@string/editTitle_hint"
+
+        android:inputType="text"
+        android:lines="1"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/NoteEditionTitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TexteEdition"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#999999" />
+
+    <EditText
+        android:id="@+id/NoteEdition"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="6px"
+        android:layout_marginBottom="0px"
+        android:layout_weight="0.75"
+        android:gravity="top|left"
+        android:hint="@string/editText_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="textMultiLine"
+        android:padding="11px"
+        android:paddingBottom="0px"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!--<TextView
+      android:id="@+id/text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"  />
+      android:text="@string/text_view" -->
+
+    <LinearLayout
+        android:id="@+id/editionButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonSave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:onClick="save"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/ButtonQuit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:onClick="quit"
+            android:text="@string/returnB" />
+    </LinearLayout>
+
+</LinearLayout>

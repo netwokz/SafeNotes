@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Safe Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="instructions">Place your fingertip on the Home button to verify your identity</string>
+
+    <!-- Main -->
+    <string name="addNoteB">Add note</string>
+    <string name="searchText">Search</string>
+    <string name="search">Search</string>
+    <string name="quit">Quit</string>
+
+    <!-- Edit -->
+    <string name="returnB">Return</string>
+    <string name="save">Save</string>
+    <string name="TexteEdition">Note</string>
+    <string name="TitreEdition">Title</string>
+    <string name="editTitle_hint">Note\'s Title</string>
+    <string name="editText_hint">Your Note</string>
+
+    <!-- Preferences text -->
+    <string name="preferences">Preferences</string>
+    <string name="pref_cat_search">Search</string>
+    <string name="pref_cat_display">Display</string>
+    <string name="pref_cat_confirmation">Delete and cancel behavior</string>
+    <string name="pref_search">Search in content</string>
+    <string name="pref_search_sum">Search also in the notes\' content but not in note protected by password</string>
+    <string name="pref_sensitive_search">Case sensitive research </string>
+    <string name="cb_sensitive_search">Ignore case</string>
+    <string name="pref_display_search_option">Display search options</string>
+    <string name="pref_search_option_orientation">Vertical search options</string>
+    <string name="pref_date">Creation date</string>
+    <string name="pref_date_sum">Display creation date</string>
+    <string name="pref_date_mod">Modification Date</string>
+    <string name="pref_date_mod_sum">Display modification date</string>
+    <string name="pref_theme">Light theme</string>
+    <string name="pref_theme_sum">Light or dark theme</string>
+    <string name="pref_delete_confirmation">Delete confirmation</string>
+    <string name="pref_cancel_confirmation">Cancel confirmation</string>
+    <string name="pref_backButton_action">Back button action</string>
+    <string name="pref_backButton_action_summary">Define behaviour when back button pressed</string>
+    <string name="pref_sort">Descending sort</string>
+    <string name="pref_sort_by">Sort by</string>
+    <string name="pref_notifications">Display notifications</string>
+    <string name="pref_text_size">Text Size</string>
+    <string name="pref_text_size_custom">Custom text size</string>
+    <string name="pref_text_size_custom_summary">Choose Custom entry in Text Size</string>
+    <string name="pref_text_size_button_custom">Custom text size for buttons</string>
+    <string name="pref_main_button_orientation">Main screen buttons horizontal</string>
+    <string name="pref_edition_button_orientation">Edition buttons horizontal</string>
+    <string name="pref_db">Database</string>
+    <string name="pref_export_db">Export database</string>
+    <string name="pref_import_db">Import database</string>
+    <string name="pref_preview_limit">Preview limit</string>
+    <string name="pref_preview_limit_summary">Number of characters per note previewed</string>
+    <string name="pref_keep_position_scroll">Keep scrolling position</string>
+    <string name="pref_export_csv_db">Export csv</string>
+    <string name="pref_export_csv_db_summary">Export all non-password protected notes into csv format file</string>
+    <!--<string name="pref_clean_db">Clean database (Delete all notes)</string>-->
+
+    <!-- Preference toasts' text"-->
+    <string name="toast_export_db">Database exported in </string>
+    <string name="toast_import_db">Database imported from </string>
+    <string name="toast_import_no_db">No database found, please export first.</string>
+
+    <!-- Note Edition toasts' text"-->
+    <string name="toast_save">Saved</string>
+    <string name="toast_update">Note updated</string>
+    <string name="toast_fail">Failed</string>
+    <string name="toast_titleCancel">Cancel modification</string>
+    <string name="toast_msgCancel">Are you sure?</string>
+    <string name="toast_positiveButton">Yes</string>
+    <string name="toast_negativeButton">No</string>
+
+    <!-- Note Main toasts' text"-->
+    <string name="pwd_protected">Password Protected</string>
+    <string name="note_deleted">Note deleted !</string>
+    <string name="toast_pwd_error">Incorrect password</string>
+
+    <string name="menu_title">Note Menu</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_passwd">Password</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_detail">Details</string>
+
+    <string name="detail_title">Title</string>
+    <string name="detail_nb_char">Number of characters</string>
+    <string name="detail_created">Created the </string>
+    <string name="detail_modified">Modified the </string>
+    <string name="detail_not_modified">Not Modified </string>
+
+
+    <string name="dialog_pwd_title">Asking password</string>
+    <string name="dialog_pwd_msg">Enter Password</string>
+    <string name="dialog_pwd_submit">Submit</string>
+    <string name="dialog_pwd_cancel">Cancel</string>
+
+    <string name="dialog_delete_title">Deleting Note</string>
+    <string name="dialog_delete_msg">Are you sure?</string>
+    <string name="dialog_delete_yes">Yes</string>
+    <string name="dialog_delete_no">No</string>
+
+    <string name="dialog_add_pwd_title">Adding password</string>
+    <string name="dialog_add_pwd_msg">Enter Password</string>
+    <string name="dialog_add_pwd_remove">Remove</string>
+    <string name="dialog_add_pwd_add">Add</string>
+    <string name="dialog_add_pwd_cancel">Cancel</string>
+    <string name="toast_pwd_added">Password added !</string>
+
+    <string name="restoreWarnTitle">Restore database</string>
+    <string name="restoreWarnMessage">This will overwrite all the existing notes. Continue?</string>
+    <string name="restoreWarnPositive">Yes</string>
+    <string name="restoreWarnNegative">No</string>
+    <string name="restoreToastInvalidDB">That database was invalid or corrupted! Not restored.</string>
+    <string name="restoreToastMountProblem">Media not mounted or read-only</string>
+    <string name="restoreToastUnableToMove">Unable to move old database out of the way.</string>
+    <string name="restoreToastCopyFailed">Failed to restore database into place. Nothing restored.</string>
+    <string name="restoreToastRestoreFinished">Database restored.</string>
+
+    <string name="dialog_backup_menu">Backup Option</string>
+    <string name="dialog_backup_menu_deletion">Delete this backup</string>
+    <string name="dialog_delete_backup">Delete Backup</string>
+    <string name="toast_backup_deleted">Backup deleted</string>
+    <string name="toast_backup_deleted_error">Deleting backup failed</string>
+
+    <string name="auth">Authenticate with fingerprint</string>
+    <string name="authLite">Authorise without fingerprint</string>
+
+    <!-- Not used ? -
+    <color name="note_color">#FEFEE2</color>
+    <string name="text_view"> </string>-->
+</resources>
